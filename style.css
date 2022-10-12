@@ -1,0 +1,11 @@
+body{
+    background-color: aquamarine;
+    margin: 0px;
+}
+.parentContainer{
+    margin: 50px 50px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
