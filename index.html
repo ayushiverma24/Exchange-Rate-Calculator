@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exchange Rate Calculator</title>
     <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
-    <div class="parentContainer">
-        <div class="header">
+    <div id="parentContainer">
+        <div id="header">
             <h1>Exchange Rate Calculator App</h1>
         </div>
-        <div class="section1">
-            <div class="childSection1">
+        <div id="section1">
+            <div id="childSection1">
                 <label for="currency">Select a currency</label>
-                <select name="currency">
+                <select id="currency">
                     <option value="INR">INR</option>
                     <option value="USD">USD</option>
                     <option value="GBP">GBP</option>
@@ -24,24 +24,24 @@
 
                 </select>
             </div>
-            <div class="inputSection1">
-                <input type="number" class="inputBox">
+            <div id="inputBox1">
+                <input type="number" id="inputBox" placeholder="0" value="1">
             </div>
         </div>
-        <div class="section2">
-            <div class="childSection2">
+        <div id="section2">
+            <div id="childSection2">
                 <label for="currency2">Select a currency</label>
-                <select name="currency2">
+                <select id="currency2">
                     <option value="INR">INR</option>
                     <option value="USD">USD</option>
-                    <option value="GBP">GBP</option>
+                    <option value="GBP" selected>GBP</option>
                     <option value="AED">AED</option>
                     <option value="JPY">JPY</option>
 
                 </select>
             </div>
-            <div class="inputSection2">
-                <input type="number" class="inputBox">
+            <div id="inputBox2">
+                <input type="number" id="inputBox2">
             </div>
         </div>
     </div>
